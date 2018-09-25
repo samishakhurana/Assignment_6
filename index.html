@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, user-scalable=no">
+        <title>Movie Search</title>
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    </head>
+    <body>
+
+    	<div >
+    		<h1 class="heading1">Movie Search</h1>
+    	</div>
+
+    	<div class="container border1" id="div1">
+    		<div class="row1">
+    			<p class="f1">Search movie using Imdb Id</p>
+    			<input class="form-control form-control-lg " id="in1" type="text" placeholder="text"><br>
+    			<a href="#div2" class="btn btn-primary " id="a1">Search</a><br><br>
+    		</div>
+    		<hr>
+    		<div class="row1">
+    			<p class="f1">Search movie using title</p>
+    			<input class="form-control form-control-lg" id="in2" type="text" placeholder="text"><br>
+    			<a href="#div2" class="btn btn-primary" id="a2">Search</a><br><br>
+    		</div>
+    		<div class="row1">
+    			<p class="f1">Search movie using year</p>
+    			<input class="form-control form-control-lg " id="in3" type="text" placeholder="text"><br>
+    			<a href="#div2" class="btn btn-primary" id="a3">Search</a><br><br>
+    		</div>
+ 		</div>
+ 		<br><br><br>
+ 		<div id="div2">
+ 			<div class="card mx-auto border1 border-primary mb-3" style="width: 18rem;">
+  				<img class="card-img-top" src="Movie_night.jpg" alt="Card image cap" id="moviePoster">
+  				<div class="card-body">
+   					<h5 class="card-title movieInfo" id="movieName" >Movie title</h5>
+    				<p class="card-text movieInfo" id="moviePlot" >Movie Description</p>
+    				<p class="card-text movieInfo" id="movieRating" >Movie Rating: </p> 
+  				</div>
+			</div>
+ 		</div>
+
+
+    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<script src="jquery-3.3.1.min.js"></script>
+    </body>
+</html>

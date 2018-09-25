@@ -1,0 +1,28 @@
+.border1{
+	border:12px solid #42f4f4;
+	border-radius: 4%;
+	box-shadow: 0 0 25px #42f4f4;
+
+}
+
+#div1{
+	margin: auto; 
+}
+
+.f1{
+	font-family: Sofia;
+	font-size: 28px;
+}
+
+.heading1{
+	text-align: center;
+	font-size: 52px;
+	font-family: Sofia;
+	color: #42f4f4;
+}
+
+.movieInfo{
+	font-size: 26px;
+	font-family: Sofia;
+	color: black;
+}
